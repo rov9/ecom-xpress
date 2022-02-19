@@ -1,34 +1,69 @@
 body{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
     
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
 }
 
 
 .logo{
     height: 16rem;
     display: block;
-    margin: 0 auto 50px;
+    margin: auto;
 }
 
 
-#name,#email,#password,#text{
+#name,#email,#password,#mob-no{
+    display: block;  
+    margin: 1rem auto;  
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+    font-family: 'roboto', sans-serif;
+    border-color: #383838;
+    border-style:hidden;
+    height:2rem;
+    width: 12rem;
+    background-color: #e2e8f0;
+ 
+}
+
+
+.submit-btn{
+    display: block;
+    margin: auto;
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
     display: block;
     width: 300px;
     height: 40px;
-    padding: 10px;
-    border-radius: 5px;
-    background: rgb(224, 28, 28);
-    border: 2rem;
-    outline: none;
-    border-color: black;
-    margin: 20px 0;
-    text-transform: capitalize;
-    color: #383838;
-    font-size: 14px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
-    font-family: 'roboto', sans-serif;
+    text-align: center;
+    line-height: 40px;
+    background: #383838;
+    color: #fff;
 }
 
+label{
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px; 
+    color: #383838; 
+} 
+
+.checkbox
+{
+    width: 11px;
+    height: 11px;
+}
+.link{
+    color: #383838;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+}
 
