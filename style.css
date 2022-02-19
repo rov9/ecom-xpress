@@ -28,6 +28,15 @@ body{
  
 }
 
+p{
+display: block;
+margin: auto;
+text-align: center;
+font-size:2rem ;
+color: #f97316;
+
+}
+
 
 .submit-btn{
     display: block;
