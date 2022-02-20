@@ -7,28 +7,86 @@
     <title>Product Listing</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://xpressui1.netlify.app/xPressUi.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/2ea00fb38c.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-    <!-- <div id="mobile-filter"></div>
-    <div id="mobile-filter">
-        <h5>Categories</h5>
+    <nav class="navbar">
+        <div class="nav">
+           <img src="/logo.png" class="brand-logo" alt="" >
+           <div class="nav-items">
+               <div class="search">
+                   <input type="text" class="search-box">
+                   <button class="search-btn">search</button>
+               </div>
+               <a href="http://"><i class="glyphicon glyphicon-user"></i></a>
+               <a href="http://"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+           </div>
+        </div>  
+        
+        <ul class="links-container">
+           <li class="link-item"><a href="#" class="link">Login</a></li>
+           <li class="link-item"><a href="#" class="link">Home</a></li>
+           <li class="link-item"><a href="#" class="link">Product page</a></li>
+           <li class="link-item"><a href="#" class="link">Wishlist</a></li>
+           <li class="link-item"><a href="#" class="link">My Cart</a></li>
+       </ul>
+       </nav>
     
-    
+
+    <div class="ecom-sidenav">
+        <h3 class="sidenav-header">Filter</h3>
+        <div class="py-3">
+            <h3 class="font-weight-bold">Categories</h3>
+            
+            <ul>
+            <li>T-shirts  <span class="badge-on-text">300</span></li>
+            <li>Shirts <span class="badge-on-text">99</span></li>
+            <li>Trousers  <span class="badge-on-text">267</span></li>
+            <li>Kid's wear<span class="badge-on-text">167</span></li>
+            </ul>
+            
+        </div>
+        <div class="py-3">
+            <h3 class="font-weight-bold">Pricing</h3>
+            <div class="slider">
+                <a><input type="range" min="1" max="100" value="50" class="default-slider" /> ₹2000 - ₹3000</a>
+            </div>
+        </div>
+        <div class="py-3">
+            <h3 class="font-weight-bold">Rating</h3>
+            <form class="rating">
+                <div> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> </div>
+                <div> <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> </div>
+                <div> <span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> </div>
+            </form>
         </div>
     </div>
-    
+
+   
+
+
     <section class="product">
         <h2 class="product-category">best selling</h2>
-    </section> -->
-<span class="hi">Text is best<span class="B">         445</span></span>
-
-    
-
-
-
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/card1.png" class="product-thumb" alt="">
+                    <button class="card-btn">add to whislist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-des">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            +7 more cards
+        </div>
+    </section> 
 
 </body>
 </html>
