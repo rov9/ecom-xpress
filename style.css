@@ -8,11 +8,11 @@
 
 
 .navbar{
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 9;
+    /* z-index: 9; */
 }
 
 .nav{
@@ -27,7 +27,7 @@
 }
 
 .brand-logo-wishlist{
-    margin-left: 30rem;
+    margin-left: 35rem;
     height:23rem;
     width:23rem;
 }
