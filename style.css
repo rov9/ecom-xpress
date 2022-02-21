@@ -1,6 +1,7 @@
 :root{
     --border-color:#d1d1d1;
-    
+    --table-element-color:#fb923c;
+    --primary-color: #94a3b8;
     }
 
 /*cart-page*/
@@ -26,6 +27,7 @@
 }
 
 .brand-logo-cart{
+    margin-left: 30rem;
     height:23rem;
     width:23rem;
 }
@@ -56,6 +58,11 @@
     transition: .5s;
 }
 
+.cartpage-title{
+    font-size: 20px;
+    color: var(--primary-color);
+    
+    }
 
 .cart-page{
     margin: 80px 20px;
@@ -78,7 +85,7 @@ th{
     text-align: left;
     padding: 5px;
     color:#fff;
-    background: #fb923c;
+    background: var(--table-element-color);
     font-weight: normal;   
 }
 
@@ -98,7 +105,7 @@ td input{
 }
 
 td a{
-    color:#fb923c;
+    color:var(--table-element-color);
     font-size: 12px;
 }
 
@@ -114,7 +121,7 @@ margin-right: 10px;
 }
 
 .total-price table{
-    border-top: 3px solid #fb923c;
+    border-top: 3px solid var(--table-element-color);
     width: 100%;
     max-width:  400px;
 }
