@@ -1,101 +1,78 @@
-:root{
---border-color:#d1d1d1;
+body{
+    
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
+}
+
+
+.logo{
+    height: 16rem;
+    display: block;
+    margin: auto;
+}
+
+
+#name,#email,#password,#mob-no{
+    display: block;  
+    margin: 1rem auto;  
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+    font-family: 'roboto', sans-serif;
+    border-color: #383838;
+    border-style:hidden;
+    height:2rem;
+    width: 12rem;
+    background-color: #e2e8f0;
+ 
+}
+
+p{
+display: block;
+margin-bottom: 2rem;
+text-align: center;
+font-size:2rem ;
+color: #f97316;
 
 }
 
 
-.navbar{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9;
-}
-
-.nav{
-    padding: 2px 2vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-items{
-    display: flex;
-    align-items: center;
-}
-
-.brand-logo{
-    height:23rem;
-    width:23rem;
-}
-
-.search{
-    width: 600px;
-    display: flex;
-}
-
-.search-box{
-    width: 80%;
-    height: 40px;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: 1px solid var(--border-color);
+.submit-btn-login{
+    display: block;
+    margin: auto;
+    border-radius: 2px;
     text-transform: capitalize;
-    background: none;
-    color: #a9a9a9;
-    outline: none;
-}
-
-
-.search-btn{
-    width: 20%;
-    height: 40px;
-    padding: 10px 20px;
     border: none;
-    outline: none;
     cursor: pointer;
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
     background: #383838;
     color: #fff;
+}
+
+label{
+    display: block;
     text-transform: capitalize;
-    font-size: 15px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px; 
+    color: #383838; 
+} 
+
+.checkbox
+{
+    width: 11px;
+    height: 11px;
 }
-
-
-.nav-items a{
-    margin-left: 20px;
-}
-
-.nav-items a i{
-    width: 30px;
-}
-
-.links-container{
-    width: 100%;
-    display: flex;
-    padding: 10px 10vw;
-    justify-content: center;
-    list-style: none;
-    border-top: 1px solid var(--border-color);
-}
-
 .link{
-    text-transform: capitalize;
-    padding: 0 10px;
-    margin: 0 5px;
-    text-decoration: none;
     color: #383838;
-    opacity: 0.5;
-    transition: .5s;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
 }
 
-.hero-section{
-    width: 100%;
-    height: calc(100vh - 120px);
-    background-image: url('/background-image.png');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
