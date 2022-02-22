@@ -1,15 +1,18 @@
 :root{
---border-color:#d1d1d1;
+    --border-color:#d1d1d1;
+    --table-element-color:#fb923c;
+    --primary-color: #94a3b8;
+    }
 
-}
+/*wishlist-page*/
 
 
 .navbar{
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 9;
+    /* z-index: 9; */
 }
 
 .nav{
@@ -24,6 +27,12 @@
 }
 
 .brand-logo{
+    height:23rem;
+    width:23rem;
+}
+
+.brand-logo-wishlist{
+    margin-left: 35rem;
     height:23rem;
     width:23rem;
 }
@@ -79,7 +88,6 @@
     list-style: none;
     border-top: 1px solid var(--border-color);
 }
-
 .link{
     text-transform: capitalize;
     padding: 0 10px;
@@ -98,4 +106,89 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.cartpage-title{
+font-size: 20px;
+color: var(--primary-color);
+
+}
+
+.wishlist-page{
+    margin: 80px 20px;
+}
+
+table{
+     display:flexbox;
+     justify-content:center;  
+    
+   width:100%;
+   border-collapse: collapse; 
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color:#fff;
+    background: var(--table-element-color);
+    font-weight: normal;   
+}
+
+td{
+    padding: 10px 5px;
+}
+
+td .cart-info{
+    padding: 10px 5px;
+}
+
+td input{
+
+    width:40px;
+    height: 30px;
+    padding:5px
+}
+
+td a{
+    color:var(--table-element-color);
+    font-size: 12px;
+}
+
+td img{
+width:80px;
+height:80px;
+margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid var(--table-element-color);
+    width: 100%;
+    max-width:  400px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+
+.cart-btn{
+    color: white;
+    border-radius: 1rem;
+    border:none;
+    font-size: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: var(--table-element-color);
 }
