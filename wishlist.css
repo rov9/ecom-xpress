@@ -1,0 +1,156 @@
+:root{
+    --border-color:#d1d1d1;
+    --table-element-color:#fb923c;
+    --primary-color: #94a3b8;
+    --white:rgb(255, 255, 255);
+    }
+
+/*wishlist-page*/
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+
+
+.navbar{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo-wishlist{
+    margin-left: 11rem;
+    height:23rem;
+    width:23rem;
+}
+
+.nav-items a{
+    margin:1rem;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid var(--border-color);
+}
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+    .cartpage-title{
+    font-size: 20px;
+    color: var(--primary-color);
+
+    }
+
+.wishlist-page{
+    margin: 80px 20px;
+}
+
+table{
+     display:flexbox;
+     justify-content:center;  
+    
+   width:100%;
+   border-collapse: collapse; 
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color:var(--white);
+    background: var(--table-element-color);
+    font-weight: normal;   
+}
+
+td{
+    padding: 10px 5px;
+}
+
+td .cart-info{
+    padding: 10px 5px;
+}
+
+td input{
+
+    width:40px;
+    height: 30px;
+    padding:5px
+}
+
+td a{
+    color:var(--table-element-color);
+    font-size: 12px;
+}
+
+td img{
+width:80px;
+height:80px;
+margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid var(--table-element-color);
+    width: 100%;
+    max-width:  400px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+
+.cart-btn{
+    color:var(--white);
+    border-radius: 1rem;
+    border:none;
+    font-size: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: var(--table-element-color);
+}
