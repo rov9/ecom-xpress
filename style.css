@@ -7,14 +7,14 @@ body{
 }
 
 
-.image-feature{
+.logo{
     height: 16rem;
     display: block;
     margin: auto;
 }
 
 
-.name,.email,.password,.mob-no{
+#name,#email,#password,#mob-no{
     display: block;  
     margin: 1rem auto;  
     border-radius: 5px;
@@ -28,7 +28,7 @@ body{
  
 }
 
-.landing-msg{
+p{
 display: block;
 margin-bottom: 2rem;
 text-align: center;
