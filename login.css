@@ -1,0 +1,71 @@
+body{
+    
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
+}
+
+
+.logo{
+    height: 16rem;
+    display: block;
+    margin: auto;
+}
+
+
+.image-feature{
+    height: 16rem;
+    display: block;
+    margin: auto;
+}
+
+
+.name,.email,.password,.mob-no{
+    display: block;  
+    margin: 1rem auto;  
+    border-radius: 5px;
+}
+
+.landing-msg{
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size:2rem ;
+    color: #f97316;
+    }
+    .submit-btn-login{
+        display: block;
+        margin: auto;
+        border-radius: 2px;
+        text-transform: capitalize;
+        border: none;
+        cursor: pointer;
+        display: block;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        background: #383838;
+        color: #fff;
+    }
+    label{
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 14px; 
+        color: #383838; 
+    } 
+    .checkbox
+    {
+        width: 11px;
+        height: 11px;
+    }
+    .link{
+        color: #383838;
+        text-transform: capitalize;
+        text-align: center;
+        display: block;
+        margin-top: 1rem;
+    }
