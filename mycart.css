@@ -7,6 +7,13 @@
 /*cart-page*/
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
 .navbar{
     /* position: sticky; */
     top: 0;
@@ -36,7 +43,7 @@
     margin-left: 20px;
 }
 
-.nav-items a i{
+.nav-items a img{
     width: 30px;
 }
 
