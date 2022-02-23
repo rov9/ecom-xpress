@@ -8,9 +8,17 @@ body{
 
 
 .logo{
-    height: 16rem;
+    height: 13rem;
     display: block;
     margin: auto;
+}
+
+.landing-msg{
+    display: block;
+    /* margin-bottom: 2rem; */
+    text-align: center;
+    font-size:2rem ;
+    color: #f97316;
 }
 
 
