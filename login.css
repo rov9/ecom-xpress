@@ -25,6 +25,13 @@ body{
     display: block;  
     margin: 1rem auto;  
     border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+    font-family: 'roboto', sans-serif;
+    border-color: #383838;
+    border-style:hidden;
+    height:2rem;
+    width: 12rem;
+    background-color: #e2e8f0;
 }
 
 .landing-msg{
