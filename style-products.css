@@ -151,6 +151,10 @@
     
 }
 
+.slider-value{
+margin-left: 1.5rem;
+}
+
 .product-container::-webkit-scrollbar{
     display: none;
 }
