@@ -23,9 +23,8 @@
 }
 
 .nav{
-    padding: 2px 2vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nav-items{
@@ -34,13 +33,13 @@
 }
 
 .brand-logo-cart{
-    margin-left: 30rem;
+    margin-left: 11rem;
     height:23rem;
     width:23rem;
 }
 
 .nav-items a{
-    margin-left: 20px;
+    margin:1rem;
 }
 
 .nav-items a img{
